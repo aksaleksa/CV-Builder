@@ -1,0 +1,10 @@
+body {
+  min-height: 800px;
+  padding: 50px;
+  background-color: rgb(254, 255, 240);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}

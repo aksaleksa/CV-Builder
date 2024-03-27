@@ -1,0 +1,88 @@
+#cv {
+    border: 1px solid black;
+    min-height: 500px;
+    background-color: white;
+}
+
+#cv > div {
+    border-bottom: 1px solid #ddd;
+}
+
+#person {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#headline {
+    color: rgb(53, 113, 202);
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 20px
+}
+
+#experiences {
+    height: 30%;
+    word-wrap: break-word;
+    padding: 0 10px;
+}
+
+h2 {
+    color: rgb(53, 113, 202);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#job-headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#skills {
+    height: 20%;
+    padding: 0 10px;
+}
+
+#skills ul {
+    list-style: bullet;
+    padding: 0;
+}
+
+#skills ul li { 
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+#skills ul li:before {
+    content: "— ";
+}
+
+#education {
+    height: 30%;
+    padding: 0 10px;
+}
+
+#education-headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(53, 113, 202);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#education-headline p:nth-of-type(2) {
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+}

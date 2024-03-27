@@ -1,0 +1,56 @@
+form {
+    padding: 10px 5px;
+    width: 100%;
+}
+
+form input {
+  width: 80%;
+}
+
+form input#skill {
+  width: 50%;
+}
+
+form .row {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul li {
+  margin-top: 4px;
+}
+
+ul li div:nth-of-type(1) {
+  font-weight: bold;
+}
+
+ul .btn {
+  padding: 2px 4px;
+  margin: 0 5px 0 5px;
+}
+
+ul button#edit {
+  color: white;
+  background-color: rgb(55, 224, 55);
+}
+
+ul button#edit:hover {
+  background-color: rgb(48, 189, 42px8);
+}
+
+button#add-skill {
+  margin-left: 10px;
+ }
+
+ ul button#delete-skill {
+    margin-left: 10px;
+    padding: 0 3px;
+    border-radius: 0;
+ }
